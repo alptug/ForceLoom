@@ -1,0 +1,9 @@
+/target/
+/dist/
+/.venv/
+__pycache__/
+*.pyc
+*.so
+*.pyd
+.DS_Store
+internal.md

@@ -1,0 +1,17 @@
+[package]
+name = "forceloom-python"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish = false
+
+[lib]
+name = "_forceloom"
+crate-type = ["cdylib"]
+test = false
+doctest = false
+
+[dependencies]
+forceloom = { path = "../../crates/forceloom" }
+pyo3 = { version = "0.29", features = ["abi3-py310"] }
